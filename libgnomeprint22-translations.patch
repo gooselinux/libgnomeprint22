@@ -1,0 +1,890 @@
+diff -urN a/po/as.po b/po/as.po
+--- a/po/as.po	1970-01-01 05:30:00.000000000 +0530
++++ b/po/as.po	2010-05-06 15:03:18.725350668 +0530
+@@ -0,0 +1,433 @@
++# Gujarati translations for libgnomeprint package.
++# Copyright (C) 2010 THE libgnomeprint'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the libgnomeprint package.
++#
++# Automatically generated, 2010.
++# Amitakhya Phukan <aphukan@redhat.com>, 2010.
++# Amitakhya Phukan <aphukan@fedoraproject.org>, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: libgnomeprint 22\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 14:28+0530\n"
++"PO-Revision-Date: 2010-04-16 12:39+0530\n"
++"Last-Translator: Amitakhya Phukan <aphukan@fedoraproject.org>\n"
++"Language-Team: American English <fedora-trans-as@redhat.com>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: Lokalize 0.2\n"
++"Plural-Forms: nplurals=2; plural=n != 1;\n"
++
++#: ../data/globals.xml.in.h:1
++msgid "1/3 A4"
++msgstr "1/3 A4"
++
++#: ../data/globals.xml.in.h:2
++msgid "1/3 A5"
++msgstr "1/3 A5"
++
++#: ../data/globals.xml.in.h:3
++msgid "1/4 A3"
++msgstr "1/4 A3"
++
++#: ../data/globals.xml.in.h:4
++msgid "1/4 A4"
++msgstr "1/4 A4"
++
++#: ../data/globals.xml.in.h:5
++msgid "1/8 A4"
++msgstr "1/8 A4"
++
++#: ../data/globals.xml.in.h:6
++msgid "2 pages to 1"
++msgstr "2 pages to 1"
++
++#: ../data/globals.xml.in.h:7
++msgid "4 pages to 1"
++msgstr "4 pages to 1"
++
++#: ../data/globals.xml.in.h:8
++msgid "A0"
++msgstr "A0"
++
++#: ../data/globals.xml.in.h:9
++msgid "A1"
++msgstr "A1"
++
++#: ../data/globals.xml.in.h:10
++msgid "A10"
++msgstr "A10"
++
++#: ../data/globals.xml.in.h:11
++msgid "A2"
++msgstr "A2"
++
++#: ../data/globals.xml.in.h:12
++msgid "A3"
++msgstr "A3"
++
++#. FIXME: fill in all papers and units. (Lauris)
++#. FIXME: load papers from file (Lauris)
++#. FIXME: use some fancy unit program (Lauris)
++#.
++#. * WARNING! Do not mess up with that - we use hardcoded numbers for base units!
++#.
++#: ../data/globals.xml.in.h:13 ../libgnomeprint/gnome-print-paper.c:43
++msgid "A4"
++msgstr "A4"
++
++#: ../data/globals.xml.in.h:14
++msgid "A5"
++msgstr "A5"
++
++#: ../data/globals.xml.in.h:15
++msgid "A6"
++msgstr "A6"
++
++#: ../data/globals.xml.in.h:16
++msgid "A7"
++msgstr "A7"
++
++#: ../data/globals.xml.in.h:17
++msgid "A8"
++msgstr "A8"
++
++#: ../data/globals.xml.in.h:18
++msgid "A9"
++msgstr "A9"
++
++#: ../data/globals.xml.in.h:19
++msgid "B0"
++msgstr "B0"
++
++#: ../data/globals.xml.in.h:20
++msgid "B1"
++msgstr "B1"
++
++#: ../data/globals.xml.in.h:21
++msgid "B10"
++msgstr "B10"
++
++#: ../data/globals.xml.in.h:22
++msgid "B2"
++msgstr "B2"
++
++#: ../data/globals.xml.in.h:23
++msgid "B3"
++msgstr "B3"
++
++#: ../data/globals.xml.in.h:24
++msgid "B4"
++msgstr "B4"
++
++#: ../data/globals.xml.in.h:25
++msgid "B5"
++msgstr "B5"
++
++#: ../data/globals.xml.in.h:26
++msgid "B6"
++msgstr "B6"
++
++#: ../data/globals.xml.in.h:27
++msgid "B7"
++msgstr "B7"
++
++#: ../data/globals.xml.in.h:28
++msgid "B8"
++msgstr "B8"
++
++#: ../data/globals.xml.in.h:29
++msgid "B9"
++msgstr "B9"
++
++#: ../data/globals.xml.in.h:30
++msgid "C0"
++msgstr "C0"
++
++#: ../data/globals.xml.in.h:31
++msgid "C1"
++msgstr "C1"
++
++#: ../data/globals.xml.in.h:32
++msgid "C10"
++msgstr "C10"
++
++#: ../data/globals.xml.in.h:33
++msgid "C2"
++msgstr "C2"
++
++#: ../data/globals.xml.in.h:34
++msgid "C3"
++msgstr "C3"
++
++#: ../data/globals.xml.in.h:35
++msgid "C4"
++msgstr "C4"
++
++#: ../data/globals.xml.in.h:36
++msgid "C5"
++msgstr "C5"
++
++#: ../data/globals.xml.in.h:37
++msgid "C6"
++msgstr "C6"
++
++#: ../data/globals.xml.in.h:38
++msgid "C6/C5 Envelope"
++msgstr "C6/C5 Envelope"
++
++#: ../data/globals.xml.in.h:39
++msgid "C7"
++msgstr "C7"
++
++#: ../data/globals.xml.in.h:40
++msgid "C8"
++msgstr "C8"
++
++#: ../data/globals.xml.in.h:41
++msgid "C9"
++msgstr "C9"
++
++#: ../data/globals.xml.in.h:42
++msgid "Custom"
++msgstr "Custom"
++
++#: ../data/globals.xml.in.h:43
++msgid "DL Envelope"
++msgstr "DL Envelope"
++
++#: ../data/globals.xml.in.h:44
++msgid "Divided"
++msgstr "Divided"
++
++#: ../data/globals.xml.in.h:45
++msgid "Envelope 6x9"
++msgstr "Envelope 6x9"
++
++#: ../data/globals.xml.in.h:46
++msgid "Envelope No10"
++msgstr "Envelope No10"
++
++#: ../data/globals.xml.in.h:47
++msgid "Folded"
++msgstr "Folded"
++
++#: ../data/globals.xml.in.h:48
++msgid "Landscape"
++msgstr "Landscape"
++
++#: ../data/globals.xml.in.h:49
++msgid "Plain"
++msgstr "Plain"
++
++#: ../data/globals.xml.in.h:50
++msgid "Portrait"
++msgstr "Portrait"
++
++#: ../data/globals.xml.in.h:51
++msgid "Rotated 180 degrees"
++msgstr "Rotated 180 degrees"
++
++#: ../data/globals.xml.in.h:52
++msgid "Rotated 270 degrees"
++msgstr "Rotated 270 degrees"
++
++#: ../data/globals.xml.in.h:53
++msgid "Rotated 90 degrees"
++msgstr "Rotated 90 degrees"
++
++#: ../data/globals.xml.in.h:54
++msgid "Straight"
++msgstr "Straight"
++
++#: ../data/globals.xml.in.h:55
++msgid "US Executive"
++msgstr "US Executive"
++
++#: ../data/globals.xml.in.h:56
++msgid "US Legal"
++msgstr "US Legal"
++
++#: ../data/globals.xml.in.h:57
++msgid "US Letter"
++msgstr "US Letter"
++
++#: ../data/globals.xml.in.h:58
++msgid "Upside down landscape"
++msgstr "Upside down landscape"
++
++#: ../data/globals.xml.in.h:59
++msgid "Upside down portrait"
++msgstr "Upside down portrait"
++
++#: ../data/printers/GENERIC.xml.in.h:1
++msgid "Generic Postscript"
++msgstr "Generic Postscript"
++
++#: ../data/printers/PDF-WRITER.xml.in.h:1
++msgid "Create a PDF document"
++msgstr "এটা PDF আলেখ্যন নিৰ্মাণ কৰক"
++
++#. xgettext: Notice that this sentence contains every letter
++#. * of the English alphabet. This is a special sentence, called
++#. * a 'Pangram' (see: http://en.wikipedia.org/wiki/Pangram).
++#. * This sentence is used to demonstrate in a nice way how well
++#. * a font in your language looks. It's an improvement from having
++#. * just the alphabet of a language.
++#. * Therefore, add a short sentence here in your language that
++#. * demonstrates the letters of your alphabet.
++#: ../libgnomeprint/gnome-font-face.c:502
++msgid "The quick brown fox jumps over the lazy dog."
++msgstr ""
++"সমাজ জীৱনৰ প্রকৃত ছবি যি মাধ্যমৰ জৰিয়তে লিখিতভাৱে প্রকাশ কৰা হয় সেয়ে "
++"সাহিত্য ।"
++
++#: ../libgnomeprint/gnome-print-job.c:146
++msgid "Job Configuration"
++msgstr "কামৰ বিন্যাস"
++
++#: ../libgnomeprint/gnome-print-job.c:147
++msgid "The configuration for the print job"
++msgstr "মূদ্ৰণ কাৰ্য্যৰ কাণে বিন্যাস"
++
++#: ../libgnomeprint/gnome-print-job.c:151
++msgid "Context"
++msgstr "সন্দৰ্ভ"
++
++#: ../libgnomeprint/gnome-print-job.c:152
++msgid "The context for the print job"
++msgstr "মূদ্ৰণ কাৰ্য্যৰ কাৰণে সন্দৰ্ভ"
++
++#. Do not insert any elements before/between first 4
++#: ../libgnomeprint/gnome-print-unit.c:36
++msgid "Unit"
++msgstr "একক"
++
++#: ../libgnomeprint/gnome-print-unit.c:36
++msgid "Units"
++msgstr "একক"
++
++#: ../libgnomeprint/gnome-print-unit.c:37
++msgid "Point"
++msgstr "বিন্দু"
++
++#: ../libgnomeprint/gnome-print-unit.c:37
++msgid "Pt"
++msgstr "বিন্দু"
++
++#: ../libgnomeprint/gnome-print-unit.c:37
++msgid "Points"
++msgstr "বিন্দুবোৰ"
++
++#: ../libgnomeprint/gnome-print-unit.c:37
++msgid "Pts"
++msgstr "বিন্দুবোৰ"
++
++#: ../libgnomeprint/gnome-print-unit.c:38
++msgid "Userspace unit"
++msgstr "ব্যৱহাৰকৰ্তাৰ স্থানৰ একক"
++
++#: ../libgnomeprint/gnome-print-unit.c:38
++msgid "User"
++msgstr "ব্যৱহাৰকৰ্তা"
++
++#: ../libgnomeprint/gnome-print-unit.c:38
++msgid "Userspace units"
++msgstr "ব্যৱহাৰকৰ্তাৰ স্থানৰ একক"
++
++#: ../libgnomeprint/gnome-print-unit.c:39
++msgid "Pixel"
++msgstr "পিক্সেল"
++
++#: ../libgnomeprint/gnome-print-unit.c:39
++msgid "Px"
++msgstr "পিক্সেল"
++
++#: ../libgnomeprint/gnome-print-unit.c:39
++msgid "Pixels"
++msgstr "পিক্সেল"
++
++#. You can add new elements from this point forward
++#: ../libgnomeprint/gnome-print-unit.c:41
++msgid "Percent"
++msgstr "শতাংশ"
++
++#: ../libgnomeprint/gnome-print-unit.c:41
++msgid "%"
++msgstr "%"
++
++#: ../libgnomeprint/gnome-print-unit.c:41
++msgid "Percents"
++msgstr "শতাংশ"
++
++#: ../libgnomeprint/gnome-print-unit.c:42
++msgid "Millimeter"
++msgstr "মিলিমিটাৰ"
++
++#: ../libgnomeprint/gnome-print-unit.c:42
++msgid "mm"
++msgstr "মিলিমিটাৰ"
++
++#: ../libgnomeprint/gnome-print-unit.c:42
++msgid "Millimeters"
++msgstr "মিলিমিটাৰ"
++
++#: ../libgnomeprint/gnome-print-unit.c:43
++msgid "Centimeter"
++msgstr "ছেণ্টিমিটাৰ"
++
++#: ../libgnomeprint/gnome-print-unit.c:43
++msgid "cm"
++msgstr "ছেণ্টিমিটাৰ"
++
++#: ../libgnomeprint/gnome-print-unit.c:43
++msgid "Centimeters"
++msgstr "ছেণ্টিমিটাৰ"
++
++#: ../libgnomeprint/gnome-print-unit.c:44
++msgid "Inch"
++msgstr "ইঞ্চি"
++
++#: ../libgnomeprint/gnome-print-unit.c:44
++msgid "in"
++msgstr "ইঞ্চি"
++
++#: ../libgnomeprint/gnome-print-unit.c:44
++msgid "Inches"
++msgstr "ইঞ্চি"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:398
++msgid "on the weekend"
++msgstr "শপ্তাহৰ অন্তত"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:400
++msgid "between midnight and 8 a.m."
++msgstr "মাজ নিশা আৰু ৰাতিপুৱা ৮ বজাৰ মাজত"
++
++#. gpa_option_item_new (node,"night",_("between 6 p.m. and 6 a.m."));
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:402
++msgid "between 6 p.m. and 6 a.m."
++msgstr "গধূলি ৬ টা বজা আৰু ৰাতিপুৱা ৬ টা বজাৰ মাজত"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:404
++msgid "between 4 p.m. and midnight"
++msgstr "আবেলি ৪ টা বজা আৰু মাজনিশাৰ মাজত"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:405
++msgid "between 6 a.m. and 6 p.m."
++msgstr "ৰাতিপুৱা ৬ টা বজা আৰু গধূলি ৬ টা বজাৰ মাজত"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:406
++msgid "when manually released"
++msgstr "হস্তচালিতভাবে মুক্ত কৰোঁতে"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:407
++msgid "immediately"
++msgstr "এতিয়াই"
++
++#: ../libgnomeprint/modules/lpd/gnome-print-lpd.c:119
++#, c-format
++msgid "%s (via lpr)"
++msgstr "%s (lpr এদি)"
++
+diff -urN a/po/kn.po b/po/kn.po
+--- a/po/kn.po	1970-01-01 05:30:00.000000000 +0530
++++ b/po/kn.po	2010-05-06 15:03:23.517038579 +0530
+@@ -0,0 +1,430 @@
++# translation of libgnomeprint.HEAD.kn.po to Kannada
++# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
++# This file is distributed under the same license as the PACKAGE package.
++#
++# Shankar Prasad <svenkate@redhat.com>, 2009, 2010.
++msgid ""
++msgstr ""
++"Project-Id-Version: libgnomeprint.HEAD.kn\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 14:28+0530\n"
++"PO-Revision-Date: 2010-03-30 13:16+0530\n"
++"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
++"Language-Team: kn-IN <>\n"
++"MIME-Version: 1.0\n"
++"Content-Type: text/plain; charset=UTF-8\n"
++"Content-Transfer-Encoding: 8bit\n"
++"X-Generator: Lokalize 1.0\n"
++"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
++
++#: ../data/globals.xml.in.h:1
++msgid "1/3 A4"
++msgstr "1/3 A4"
++
++#: ../data/globals.xml.in.h:2
++msgid "1/3 A5"
++msgstr "1/3 A5"
++
++#: ../data/globals.xml.in.h:3
++msgid "1/4 A3"
++msgstr "1/4 A3"
++
++#: ../data/globals.xml.in.h:4
++msgid "1/4 A4"
++msgstr "1/4 A4"
++
++#: ../data/globals.xml.in.h:5
++msgid "1/8 A4"
++msgstr "1/8 A4"
++
++#: ../data/globals.xml.in.h:6
++msgid "2 pages to 1"
++msgstr "2 ಪುಟಗಳಿಂದ 1"
++
++#: ../data/globals.xml.in.h:7
++msgid "4 pages to 1"
++msgstr "4 ಪುಟಗಳಿಂದ 1"
++
++#: ../data/globals.xml.in.h:8
++msgid "A0"
++msgstr "A0"
++
++#: ../data/globals.xml.in.h:9
++msgid "A1"
++msgstr "A1"
++
++#: ../data/globals.xml.in.h:10
++msgid "A10"
++msgstr "A10"
++
++#: ../data/globals.xml.in.h:11
++msgid "A2"
++msgstr "A2"
++
++#: ../data/globals.xml.in.h:12
++msgid "A3"
++msgstr "A3"
++
++#. FIXME: fill in all papers and units. (Lauris)
++#. FIXME: load papers from file (Lauris)
++#. FIXME: use some fancy unit program (Lauris)
++#.
++#. * WARNING! Do not mess up with that - we use hardcoded numbers for base units!
++#.
++#: ../data/globals.xml.in.h:13 ../libgnomeprint/gnome-print-paper.c:43
++msgid "A4"
++msgstr "A4"
++
++#: ../data/globals.xml.in.h:14
++msgid "A5"
++msgstr "A5"
++
++#: ../data/globals.xml.in.h:15
++msgid "A6"
++msgstr "A6"
++
++#: ../data/globals.xml.in.h:16
++msgid "A7"
++msgstr "A7"
++
++#: ../data/globals.xml.in.h:17
++msgid "A8"
++msgstr "A8"
++
++#: ../data/globals.xml.in.h:18
++msgid "A9"
++msgstr "A9"
++
++#: ../data/globals.xml.in.h:19
++msgid "B0"
++msgstr "B0"
++
++#: ../data/globals.xml.in.h:20
++msgid "B1"
++msgstr "B1"
++
++#: ../data/globals.xml.in.h:21
++msgid "B10"
++msgstr "B10"
++
++#: ../data/globals.xml.in.h:22
++msgid "B2"
++msgstr "B2"
++
++#: ../data/globals.xml.in.h:23
++msgid "B3"
++msgstr "B3"
++
++#: ../data/globals.xml.in.h:24
++msgid "B4"
++msgstr "B4"
++
++#: ../data/globals.xml.in.h:25
++msgid "B5"
++msgstr "B5"
++
++#: ../data/globals.xml.in.h:26
++msgid "B6"
++msgstr "B6"
++
++#: ../data/globals.xml.in.h:27
++msgid "B7"
++msgstr "B7"
++
++#: ../data/globals.xml.in.h:28
++msgid "B8"
++msgstr "B8"
++
++#: ../data/globals.xml.in.h:29
++msgid "B9"
++msgstr "B9"
++
++#: ../data/globals.xml.in.h:30
++msgid "C0"
++msgstr "C0"
++
++#: ../data/globals.xml.in.h:31
++msgid "C1"
++msgstr "C1"
++
++#: ../data/globals.xml.in.h:32
++msgid "C10"
++msgstr "C10"
++
++#: ../data/globals.xml.in.h:33
++msgid "C2"
++msgstr "C2"
++
++#: ../data/globals.xml.in.h:34
++msgid "C3"
++msgstr "C3"
++
++#: ../data/globals.xml.in.h:35
++msgid "C4"
++msgstr "C4"
++
++#: ../data/globals.xml.in.h:36
++msgid "C5"
++msgstr "C5"
++
++#: ../data/globals.xml.in.h:37
++msgid "C6"
++msgstr "C6"
++
++#: ../data/globals.xml.in.h:38
++msgid "C6/C5 Envelope"
++msgstr "C6/C5 ಲಕೋಟೆ"
++
++#: ../data/globals.xml.in.h:39
++msgid "C7"
++msgstr "C7"
++
++#: ../data/globals.xml.in.h:40
++msgid "C8"
++msgstr "C8"
++
++#: ../data/globals.xml.in.h:41
++msgid "C9"
++msgstr "C9"
++
++#: ../data/globals.xml.in.h:42
++msgid "Custom"
++msgstr "ಇಚ್ಛೆಯ"
++
++#: ../data/globals.xml.in.h:43
++msgid "DL Envelope"
++msgstr "DL ಲಕೋಟೆ"
++
++#: ../data/globals.xml.in.h:44
++msgid "Divided"
++msgstr "ವಿಭಾಗಿಸಿದ"
++
++#: ../data/globals.xml.in.h:45
++msgid "Envelope 6x9"
++msgstr "ಲಕೋಟೆ 6x9"
++
++#: ../data/globals.xml.in.h:46
++msgid "Envelope No10"
++msgstr "ಲಕೋಟೆ No10"
++
++#: ../data/globals.xml.in.h:47
++msgid "Folded"
++msgstr "ಮಡಚಲಾದ"
++
++#: ../data/globals.xml.in.h:48
++msgid "Landscape"
++msgstr "ಪ್ರಕೃತಿ ದೃಶ್ಯ"
++
++#: ../data/globals.xml.in.h:49
++msgid "Plain"
++msgstr "ಸರಳ"
++
++#: ../data/globals.xml.in.h:50
++msgid "Portrait"
++msgstr "ಭಾವಚಿತ್ರ"
++
++#: ../data/globals.xml.in.h:51
++msgid "Rotated 180 degrees"
++msgstr "180 ಡಿಗ್ರಿ ತಿರುಗಿಸಲಾದ"
++
++#: ../data/globals.xml.in.h:52
++msgid "Rotated 270 degrees"
++msgstr "270 ಡಿಗ್ರಿ ತಿರುಗಿಸಲಾದ"
++
++#: ../data/globals.xml.in.h:53
++msgid "Rotated 90 degrees"
++msgstr "90 ಡಿಗ್ರಿ ತಿರುಗಿಸಲಾದ"
++
++#: ../data/globals.xml.in.h:54
++msgid "Straight"
++msgstr "ನೇರ"
++
++#: ../data/globals.xml.in.h:55
++msgid "US Executive"
++msgstr "US ಎಕ್ಸಿಕ್ಯೂಟೀವ್"
++
++#: ../data/globals.xml.in.h:56
++msgid "US Legal"
++msgstr "US ಲೀಗಲ್"
++
++#: ../data/globals.xml.in.h:57
++msgid "US Letter"
++msgstr "US ಲೆಟರ್"
++
++#: ../data/globals.xml.in.h:58
++msgid "Upside down landscape"
++msgstr "ತಲೆಕೆಳಗಾದ ಪ್ರಕೃತಿದೃಶ್ಯ"
++
++#: ../data/globals.xml.in.h:59
++msgid "Upside down portrait"
++msgstr "ತಲೆಕೆಳಗಾದ ಭಾವಚಿತ್ರ"
++
++#: ../data/printers/GENERIC.xml.in.h:1
++msgid "Generic Postscript"
++msgstr "ಸಾಮಾನ್ಯ Postscript"
++
++#: ../data/printers/PDF-WRITER.xml.in.h:1
++msgid "Create a PDF document"
++msgstr "ಒಂದು PDF ದಸ್ತಾವೇಜನ್ನು ರಚಿಸು"
++
++#. xgettext: Notice that this sentence contains every letter
++#. * of the English alphabet. This is a special sentence, called
++#. * a 'Pangram' (see: http://en.wikipedia.org/wiki/Pangram).
++#. * This sentence is used to demonstrate in a nice way how well
++#. * a font in your language looks. It's an improvement from having
++#. * just the alphabet of a language.
++#. * Therefore, add a short sentence here in your language that
++#. * demonstrates the letters of your alphabet.
++#: ../libgnomeprint/gnome-font-face.c:502
++msgid "The quick brown fox jumps over the lazy dog."
++msgstr ""
++"ಗಾಢಾಂಧಕಾರದೊಳು ನಟನ ಪಟು ಮೇಘ ಸಖಿಸಞ್ಚಲಿಸೆ, ಬೆಳಕು ಝರಿಯಂತೆ ಹರಿದಾಡಿ ಮೂಡಿಜೀವ ಭಙ್ಗಿಯ "
++"ಜಾಣ್ಮೆ ಕಥಿಸೆ ಕೌಶಲ ಕೇಳಿಫಲವೊ ಛಲರಹಿತ ರಸನಿಷ್ಠೈಕ ಮೋದಕೃತಿಯೇ"
++
++#: ../libgnomeprint/gnome-print-job.c:146
++msgid "Job Configuration"
++msgstr "ಮುದ್ರಣಕಾರ್ಯ ಸಂರಚನೆ"
++
++#: ../libgnomeprint/gnome-print-job.c:147
++msgid "The configuration for the print job"
++msgstr "ಮುದ್ರಣಕಾರ್ಯಕ್ಕಾಗಿನ ಸಂರಚನೆ"
++
++#: ../libgnomeprint/gnome-print-job.c:151
++msgid "Context"
++msgstr "ಸನ್ನಿವೇಶ"
++
++#: ../libgnomeprint/gnome-print-job.c:152
++msgid "The context for the print job"
++msgstr "ಮುದ್ರಣಕಾರ್ಯಕ್ಕಾಗಿನ ಸನ್ನಿವೇಶ"
++
++#. Do not insert any elements before/between first 4
++#: ../libgnomeprint/gnome-print-unit.c:36
++msgid "Unit"
++msgstr "ಘಟಕ"
++
++#: ../libgnomeprint/gnome-print-unit.c:36
++msgid "Units"
++msgstr "ಘಟಕಗಳು"
++
++#: ../libgnomeprint/gnome-print-unit.c:37
++msgid "Point"
++msgstr "ಬಿಂದು"
++
++#: ../libgnomeprint/gnome-print-unit.c:37
++msgid "Pt"
++msgstr "Pt"
++
++#: ../libgnomeprint/gnome-print-unit.c:37
++msgid "Points"
++msgstr "ಬಿಂದುಗಳು"
++
++#: ../libgnomeprint/gnome-print-unit.c:37
++msgid "Pts"
++msgstr "Pts"
++
++#: ../libgnomeprint/gnome-print-unit.c:38
++msgid "Userspace unit"
++msgstr "ಬಳಕೆದಾರಸ್ಥಳ ಘಟಕ"
++
++#: ../libgnomeprint/gnome-print-unit.c:38
++msgid "User"
++msgstr "ಬಳಕೆದಾರ"
++
++#: ../libgnomeprint/gnome-print-unit.c:38
++msgid "Userspace units"
++msgstr "ಬಳಕೆದಾರಸ್ಥಳ ಘಟಕಗಳು"
++
++#: ../libgnomeprint/gnome-print-unit.c:39
++msgid "Pixel"
++msgstr "ಪಿಕ್ಸೆಲ್"
++
++#: ../libgnomeprint/gnome-print-unit.c:39
++msgid "Px"
++msgstr "Px"
++
++#: ../libgnomeprint/gnome-print-unit.c:39
++msgid "Pixels"
++msgstr "ಪಿಕ್ಸೆಲ್‌ಗಳು"
++
++#. You can add new elements from this point forward
++#: ../libgnomeprint/gnome-print-unit.c:41
++msgid "Percent"
++msgstr "ಪ್ರತಿಶತ"
++
++#: ../libgnomeprint/gnome-print-unit.c:41
++msgid "%"
++msgstr "%"
++
++#: ../libgnomeprint/gnome-print-unit.c:41
++msgid "Percents"
++msgstr "ಪ್ರತಿಶತಗಳು"
++
++#: ../libgnomeprint/gnome-print-unit.c:42
++msgid "Millimeter"
++msgstr "ಮಿಲಿಮೀಟರ್"
++
++#: ../libgnomeprint/gnome-print-unit.c:42
++msgid "mm"
++msgstr "mm"
++
++#: ../libgnomeprint/gnome-print-unit.c:42
++msgid "Millimeters"
++msgstr "ಮಿಲಿಮೀಟರುಗಳು"
++
++#: ../libgnomeprint/gnome-print-unit.c:43
++msgid "Centimeter"
++msgstr "ಸೆಂಟಿಮೀಟರ್"
++
++#: ../libgnomeprint/gnome-print-unit.c:43
++msgid "cm"
++msgstr "cm"
++
++#: ../libgnomeprint/gnome-print-unit.c:43
++msgid "Centimeters"
++msgstr "ಸೆಂಟಿಮೀಟರುಗಳು"
++
++#: ../libgnomeprint/gnome-print-unit.c:44
++msgid "Inch"
++msgstr "ಇಂಚು"
++
++#: ../libgnomeprint/gnome-print-unit.c:44
++msgid "in"
++msgstr "in"
++
++#: ../libgnomeprint/gnome-print-unit.c:44
++msgid "Inches"
++msgstr "ಇಂಚುಗಳು"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:398
++msgid "on the weekend"
++msgstr "ವಾರಾಂತ್ಯದಲ್ಲಿ"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:400
++msgid "between midnight and 8 a.m."
++msgstr "ಮಧ್ಯರಾತ್ರಿ ಹಾಗು ಬೆಳಿಗ್ಗೆ ೮ ರ ನಡುವೆ"
++
++#. gpa_option_item_new (node,"night",_("between 6 p.m. and 6 a.m."));
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:402
++msgid "between 6 p.m. and 6 a.m."
++msgstr "ಸಂಜೆ ೬ ಹಾಗು ಬೆಳಿಗ್ಗೆ ೬ ರ ನಡುವೆ"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:404
++msgid "between 4 p.m. and midnight"
++msgstr "ಸಂಜೆ ೪ ರಿಂದ ಮಧ್ಯರಾತ್ರಿಯ ನಡುವೆ"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:405
++msgid "between 6 a.m. and 6 p.m."
++msgstr "ಬೆಳಿಗ್ಗೆ ೬ ಹಾಗು ಸಂಜೆ ೬ ರ ನಡುವೆ"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:406
++msgid "when manually released"
++msgstr "ಮಾನವಕೃತವಾಗಿ ಬಿಡುಗಡೆಗೊಳಿಸಿದಾಗ"
++
++#: ../libgnomeprint/modules/cups/gnome-print-cups.c:407
++msgid "immediately"
++msgstr "ತಕ್ಷಣ"
++
++#: ../libgnomeprint/modules/lpd/gnome-print-lpd.c:119
++#, c-format
++msgid "%s (via lpr)"
++msgstr "%s (via ಮೂಲಕ)"
+diff -urN a/po/LINGUAS b/po/LINGUAS
+--- a/po/LINGUAS	2010-05-06 15:03:07.215154754 +0530
++++ b/po/LINGUAS	2010-05-06 15:03:58.242046156 +0530
+@@ -2,6 +2,7 @@
+ #
+ am
+ ar
++as
+ az
+ be
+ be@latin
+@@ -36,6 +37,7 @@
+ it
+ ja
+ ka
++kn
+ ko
+ ky
+ lt
